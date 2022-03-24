@@ -1,0 +1,19 @@
+
+.container {
+    position: relative;
+    width: 1200px;
+    border: 5px dashed orange;
+    margin: auto;
+}
+
+
+section {
+    margin-top: 20px;           /* m20 */
+    margin-right: 40px;         /* m240 */
+    margin-bottom: 80px;
+    margin-left: 160px;
+    width: 200px;               /* w200 */
+    height: 200px;
+    display: inline-block;
+    border: 3px solid grey;
+}

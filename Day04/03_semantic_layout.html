@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시멘트 요소 - 레이아웃</title>
+    <!--font-family: 'Do Hyeon', sans-serif;-->
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+
+    <style>
+         *{ box-sizing: border-box; margin: 0; padding: 0;}
+                body{
+                    font-family: 'Do Hyeon', sans-serif;
+                }
+
+                #headere{
+                    background-color: lightgray;
+                    height: 100px;
+                    line-height: 100px;
+                    text-align: center;
+                    font-size: 20px;
+                   
+                }
+
+                nav {
+                    float: left;
+                    width: 20%;
+                    height: 300px;
+                    background-color: #339999;
+                    padding: 20px;
+                }
+
+                article{
+                    float: left;
+                    padding: 20px;
+                    width: 80%;
+                    background-color: #f1f1f1;
+                    height: 300px;
+                }
+
+                footer {
+                    background-color: #ffcc00;
+                    height: 100px;
+                    line-height: 100px;
+                    text-align: center;
+                }
+
+                /* 반응형 적용 - 가로 사이즈 600px 이하 */
+                @media screen and (max-Width: 600px) {
+                    nav,
+                    article {
+                        width: 100%;
+                        height: auto;
+
+                    } 
+                    
+                }
+
+    </style>
+</head>
+<body>
+    <h1>semantic 태그를 이용한 레이아웃</h1>
+    <header>
+        <h2>HEADER</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <!-- 한줄 복사 : alt + shift + -->
+                <li><a href="#">menu 001</a></li>
+                <li><a href="#">menu 002</a></li>
+                <li><a href="#">menu 003</a></li>
+                <li><a href="#">menu 004</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>SBS 아카데미</h1>
+            <p>
+                살았으며, 두기 가슴이 인생의 반짝이는 이상의 밥을 오아이스도 약동하다. 풀이 붙잡아 없으면 시들어 보배를 위하여 할지라도 현저하게 뿐이다. 가치를 따뜻한 못할 든 따뜻한 그들의 품었기 아름답고 힘있다. 무엇을 가는 품었기 물방아 사랑의 우는 살았으며, 힘차게 이것이다. 보이는 아니더면, 피고, 든 이것을 힘차게 그림자는 우리 이것이다. 없는 물방아 많이 길지 얼마나 보내는 그들의 끓는다.
+            </p>
+            <p>
+                살았으며, 두기 가슴이 인생의 반짝이는 이상의 밥을 오아이스도 약동하다. 풀이 붙잡아 없으면 시들어 보배를 위하여 할지라도 현저하게 뿐이다. 가치를 따뜻한 못할 든 따뜻한 그들의 품었기 아름답고 힘있다. 무엇을 가는 품었기 물방아 사랑의 우는 살았으며, 힘차게 이것이다. 보이는 아니더면, 피고, 든 이것을 힘차게 그림자는 우리 이것이다. 없는 물방아 많이 길지 얼마나 보내는 그들의 끓는다.
+            </p>
+        </article>
+    </section>
+
+    <!-- 다 못 함-->
+    <footer>
+        <h2></h2>
+    </footer>
+    
+</body>
+</html>
